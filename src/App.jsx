@@ -6,6 +6,7 @@ import AnimatedCounter from "./components/AnimatedCounter";
 import Icon from "./components/Icon";
 import { Reveal, Section } from "./components/Section";
 import { contact, faqs, features, journey, portfolio, services, stats, testimonials } from "./data/siteData";
+import mohitPhoto from "../image/Mohit.jpeg";
 
 const whatsappUrl = contact.whatsapp;
 
@@ -238,6 +239,7 @@ function About() {
         <Reveal>
           <div className="photo-card">
             <div className="photo-placeholder">
+              <img src={mohitPhoto} alt="Mohit" className="photo-placeholder-image" />
               <span>MOHIT</span>
             </div>
           </div>
